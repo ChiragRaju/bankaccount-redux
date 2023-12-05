@@ -10,6 +10,7 @@ function App() {
   return (
     <div>
       <h1>🏦 The React-Redux Toolkit Bank </h1>
+
       {fullName === "" ? (
         <CreateCustomer />
       ) : (
@@ -19,6 +20,7 @@ function App() {
           <BalanceDisplay />
         </>
       )}
+      <marquee >I am chirag raju there to assist you contact number 1234567890 </marquee> 
     </div>
   );
 }
