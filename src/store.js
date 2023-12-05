@@ -38,4 +38,6 @@ const requestLoan=(amount,purpose)=>{
 return {type:"account/requestLoan",payload:{amount,purpose}}
 
 }
-const payLoan=()=>{}
+const payLoan=()=>{
+  return {type:"account/payLoan"}
+}
